@@ -1,0 +1,29 @@
+Package: earth
+Type: Package
+Title: Earthquakes Visualization
+Version: 0.1.0
+Author: Odilia Meneses
+Maintainer: Odilia Meneses <odiliameneses@gmail.com>
+Description: This package is part of the Capstone project "Mastering Software Development in R". The package contains a dataset about earthquakes from the NOAA website and fuctions to clean and visualize that data. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
+Imports: 
+    janitor,
+    dplyr,
+    magrittr,
+    stringr,
+    tidyr,
+    ggplot2,
+    leaflet,
+    readr,
+    lubridate
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
