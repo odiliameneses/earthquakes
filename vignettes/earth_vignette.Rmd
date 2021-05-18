@@ -1,12 +1,11 @@
 ---
 title: "How to use Earth Package"
 author: "Odilia Meneses"
-date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{How to use Earth Package}
   %\VignetteEngine{knitr::rmarkdown}
-  %\usepackage[utf8]{inputenc}
+  \usepackage[utf8]{inputenc}
 ---
 
 ```{r, include = FALSE}
